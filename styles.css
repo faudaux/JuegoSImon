@@ -71,3 +71,28 @@ h1, h2, h3, h4, h5 {
   box-shadow: 0 0 20px white;
   background-color: grey;
 }
+
+@media (max-width: 600px) {
+
+  #level-title {
+    font-size: 3rem;
+
+  }
+  .difficulty {
+
+    font-size: 2rem;
+
+  }
+  .btn {
+
+    height: 100px;
+    width: 100px;
+
+    margin: 0px;
+
+  }
+  .container {
+    width: 100%;
+
+  }
+}
